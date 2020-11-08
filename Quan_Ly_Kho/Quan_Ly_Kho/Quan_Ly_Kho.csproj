@@ -64,6 +64,12 @@
       <DependentUpon>frmQuanLyKho.cs</DependentUpon>
     </Compile>
     <Compile Include="HANGHOADATA.cs" />
+    <Compile Include="HuongDan\Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HuongDan\Help.Designer.cs">
+      <DependentUpon>Help.cs</DependentUpon>
+    </Compile>
     <Compile Include="NHASANXUATDATA.cs" />
     <Compile Include="PHIEUNHAPDATA.cs" />
     <Compile Include="Program.cs" />
@@ -73,6 +79,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmQuanLyKho.resx">
       <DependentUpon>frmQuanLyKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HuongDan\Help.resx">
+      <DependentUpon>Help.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -84,6 +93,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="HuongDan\Huong Dan\Gioi thieu san pham.mht" />
+    <None Include="HuongDan\Huong Dan\Hang Hoa.mht" />
+    <None Include="HuongDan\Huong Dan\Nha Cung Cap.mht" />
+    <None Include="HuongDan\Huong Dan\Nhom thuc hien.mht" />
+    <None Include="HuongDan\Huong Dan\Phieu Muon.mht" />
+    <None Include="HuongDan\Huong Dan\Quan Ly Chung.mht" />
     <None Include="Images\Thumbs.db" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
