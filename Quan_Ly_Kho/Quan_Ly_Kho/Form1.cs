@@ -16,5 +16,5 @@ namespace Quan_Ly_Kho
           {
                InitializeComponent();
           }
-     }
+    }
 }
