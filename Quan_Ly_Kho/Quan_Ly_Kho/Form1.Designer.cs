@@ -70,7 +70,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Quan_Ly_Kho.Properties.Resources.KhoSITCDV2;
-            this.ClientSize = new System.Drawing.Size(699, 361);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(778, 462);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.butQuanLyKho);
             this.Controls.Add(this.butHuongDan);
