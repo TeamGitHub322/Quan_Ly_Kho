@@ -25,4 +25,5 @@ Thành viên:
 - Quy tắc làm việc:
 + Các thành viên trong nhóm hoàn thiện module của mình, commit lên repo và thông báo với trưởng nhóm nếu có lỗi phát sinh
 + Làm việc khẩn trương, nghiêm túc
-
+********************************************************************************************
+Để chạy phần hướng dẫn, phải cóp file Hướng dẫn sang ổ bin-> Debug, rồi chạy. Các thành viên chú ý!!!
