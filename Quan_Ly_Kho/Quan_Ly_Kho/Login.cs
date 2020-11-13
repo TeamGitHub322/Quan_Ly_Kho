@@ -62,7 +62,9 @@ namespace Quan_Ly_HS_GV_THPT
                string pass = login_txt_password.Text;
                if (user.Equals("admin") && pass.Equals("admin"))
                {
-                    
+                    Form1 frm = new Form1();
+                    frm.Show();
+                    this.Hide();
                }
                else
                {

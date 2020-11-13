@@ -185,9 +185,9 @@
             this.label2.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label2.Location = new System.Drawing.Point(75, 17);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(320, 41);
+            this.label2.Size = new System.Drawing.Size(207, 41);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Fill out the form below to login";
+            this.label2.Text = "Hãy điền thông tin";
             // 
             // lbQL_TrungTam
             // 
