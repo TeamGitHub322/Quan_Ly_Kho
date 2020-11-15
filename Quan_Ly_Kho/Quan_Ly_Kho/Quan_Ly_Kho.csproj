@@ -65,16 +65,22 @@
       <DependentUpon>frmQuanLyKho.cs</DependentUpon>
     </Compile>
     <Compile Include="HANGHOADATA.cs" />
-    <Compile Include="Login.cs">
+    <!-- <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
+      <DependentUpon>Login.cs</DependentUpon> -->
     <Compile Include="HuongDan\Help.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="HuongDan\Help.Designer.cs">
       <DependentUpon>Help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="NHASANXUATDATA.cs" />
     <Compile Include="PHIEUNHAPDATA.cs" />
@@ -86,10 +92,13 @@
     <EmbeddedResource Include="frmQuanLyKho.resx">
       <DependentUpon>frmQuanLyKho.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
+    <!-- <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon> -->
     <EmbeddedResource Include="HuongDan\Help.resx">
       <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
