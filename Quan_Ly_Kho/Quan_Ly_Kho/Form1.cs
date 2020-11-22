@@ -16,5 +16,21 @@ namespace Quan_Ly_Kho
           {
                InitializeComponent();
           }
-    }
+
+          private void butQuanLyKho_Click(object sender, EventArgs e)
+          {
+               frmQuanLyKho frm = new frmQuanLyKho();
+               frm.ShowDialog();
+               frm.Close();
+               frm.Dispose();
+          }
+
+          private void butHuongDan_Click(object sender, EventArgs e)
+          {
+               HuongDan.Help frm = new HuongDan.Help();
+               frm.ShowDialog();
+               frm.Close();
+               frm.Dispose();
+          }
+     }
 }
