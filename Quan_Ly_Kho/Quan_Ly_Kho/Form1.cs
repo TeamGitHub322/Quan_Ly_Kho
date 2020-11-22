@@ -32,5 +32,21 @@ namespace Quan_Ly_Kho
                frm.Close();
                frm.Dispose();
           }
-     }
+
+        private void ButQuanLyKho_Click_1(object sender, EventArgs e)
+        {
+            frmQuanLyKho frm = new frmQuanLyKho();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
+        }
+
+        private void ButHuongDan_Click_1(object sender, EventArgs e)
+        {
+            HuongDan.Help frm = new HuongDan.Help();
+            frm.ShowDialog();
+            frm.Close();
+            frm.Dispose();
+        }
+    }
 }

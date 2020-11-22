@@ -42,6 +42,7 @@
             this.butHuongDan.TabIndex = 11;
             this.butHuongDan.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.butHuongDan.UseVisualStyleBackColor = true;
+            this.butHuongDan.Click += new System.EventHandler(this.ButHuongDan_Click_1);
             // 
             // butQuanLyKho
             // 
@@ -54,6 +55,7 @@
             this.butQuanLyKho.Text = "Quản Lý Kho";
             this.butQuanLyKho.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.butQuanLyKho.UseVisualStyleBackColor = true;
+            this.butQuanLyKho.Click += new System.EventHandler(this.ButQuanLyKho_Click_1);
             // 
             // label3
             // 
