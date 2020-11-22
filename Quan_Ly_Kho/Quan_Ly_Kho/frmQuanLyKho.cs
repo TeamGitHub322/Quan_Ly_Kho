@@ -143,13 +143,20 @@ namespace Quan_Ly_Kho
         {
             ADD_LISTHH();
             HH.UpdateHH(list_HH);
-            if (CHECK_ERRORHH() == 0)
-            {
-                for (int i = 1; i < dgv_HH.ColumnCount; i++)
-                {
-                    dgv_HH.SelectedRows[0].Cells[i].Value = list_HH[i - 1];
-                }
-            }
+            //if (CHECK_ERRORHH() == 0)
+            //{
+            //for (int i = 1; i < dgv_HH.ColumnCount; i++)
+            //{
+            //    if (list_HH[i - 1]!="")
+            //    {
+
+            //        dgv_HH.SelectedRows[0].Cells[1].Value = list_HH[i - 1];
+            //    }
+
+            //}
+            //}
+            db_HH = HH.SHOWDATA();
+            dgv_HH.DataSource = db_HH;
             list_HH.Clear();
         }
 

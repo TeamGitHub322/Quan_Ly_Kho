@@ -54,7 +54,7 @@ namespace Quan_Ly_Kho
             SqlConnection connect = new SqlConnection(@"Data Source=LAPTOP-9DMN1VK3\SQLEXPRESS;Initial Catalog=QUAN_LY_KHO;Integrated Security=True");
             SqlDataAdapter da = new SqlDataAdapter(cmd);//lưu dữ liệu lấy được vào đây
                                                         //string sSql = "INSERT INTO GiaoVien VALUES (ID_GiaoVien='"+GV[0]+"',TenGV='" + GV[1] + "',SDT=" + GV[2] + ",Email='" + GV[3] + "',GT='" + GV[4] + "',HocHam='" + GV[5] + "',HocVi='" + GV[6]="')";
-            string sSql = "UPDATE HANGHOA SET TenHangHoa'" + HH[1] + "' WHERE ID_HangHoa='" + HH[0] + "'";
+            string sSql = "UPDATE HANGHOA SET TenHangHoa=N'" + HH[1] + "' WHERE ID_HangHoa='" + HH[0] + "'";
 
             da.InsertCommand = new SqlCommand(sSql, connect);
             connect.Open();
