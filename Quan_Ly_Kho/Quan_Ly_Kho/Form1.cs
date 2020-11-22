@@ -33,7 +33,7 @@ namespace Quan_Ly_Kho
                frm.Dispose();
           }
 
-        private void ButQuanLyKho_Click_1(object sender, EventArgs e)
+        private void butQuanLyKho_Click_1(object sender, EventArgs e)
         {
             frmQuanLyKho frm = new frmQuanLyKho();
             frm.ShowDialog();
@@ -41,7 +41,7 @@ namespace Quan_Ly_Kho
             frm.Dispose();
         }
 
-        private void ButHuongDan_Click_1(object sender, EventArgs e)
+        private void butHuongDan_Click_1(object sender, EventArgs e)
         {
             HuongDan.Help frm = new HuongDan.Help();
             frm.ShowDialog();

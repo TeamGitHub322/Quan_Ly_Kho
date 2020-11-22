@@ -36,48 +36,52 @@
             // butHuongDan
             // 
             this.butHuongDan.Image = global::Quan_Ly_Kho.Properties.Resources.guide;
-            this.butHuongDan.Location = new System.Drawing.Point(439, 139);
+            this.butHuongDan.Location = new System.Drawing.Point(585, 171);
+            this.butHuongDan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.butHuongDan.Name = "butHuongDan";
-            this.butHuongDan.Size = new System.Drawing.Size(130, 130);
+            this.butHuongDan.Size = new System.Drawing.Size(173, 160);
             this.butHuongDan.TabIndex = 11;
             this.butHuongDan.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.butHuongDan.UseVisualStyleBackColor = true;
-            this.butHuongDan.Click += new System.EventHandler(this.ButHuongDan_Click_1);
+            this.butHuongDan.Click += new System.EventHandler(this.butHuongDan_Click_1);
             // 
             // butQuanLyKho
             // 
             this.butQuanLyKho.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butQuanLyKho.Image = global::Quan_Ly_Kho.Properties.Resources.Box;
-            this.butQuanLyKho.Location = new System.Drawing.Point(101, 139);
+            this.butQuanLyKho.Location = new System.Drawing.Point(135, 171);
+            this.butQuanLyKho.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.butQuanLyKho.Name = "butQuanLyKho";
-            this.butQuanLyKho.Size = new System.Drawing.Size(130, 130);
+            this.butQuanLyKho.Size = new System.Drawing.Size(173, 160);
             this.butQuanLyKho.TabIndex = 11;
             this.butQuanLyKho.Text = "Quản Lý Kho";
             this.butQuanLyKho.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.butQuanLyKho.UseVisualStyleBackColor = true;
-            this.butQuanLyKho.Click += new System.EventHandler(this.ButQuanLyKho_Click_1);
+            this.butQuanLyKho.Click += new System.EventHandler(this.butQuanLyKho_Click_1);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(467, 145);
+            this.label3.Location = new System.Drawing.Point(623, 178);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(83, 16);
+            this.label3.Size = new System.Drawing.Size(99, 20);
             this.label3.TabIndex = 12;
             this.label3.Text = "Hướng dẫn";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Quan_Ly_Kho.Properties.Resources.KhoSITCDV2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(778, 462);
+            this.ClientSize = new System.Drawing.Size(1037, 569);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.butQuanLyKho);
             this.Controls.Add(this.butHuongDan);
             this.Icon = global::Quan_Ly_Kho.Properties.Resources.icon;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Menu";
             this.ResumeLayout(false);
