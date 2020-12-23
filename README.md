@@ -27,3 +27,5 @@ Thành viên:
 + Làm việc khẩn trương, nghiêm túc
 ********************************************************************************************
 Để chạy phần hướng dẫn, phải cóp file Hướng dẫn sang ổ bin-> Debug, rồi chạy. Các thành viên chú ý!!!
+--------------------------------------------------------------------------------------------
+Lưu ý các thành viên khi chạy, trong phần HANGHOADATA.cs của Ngọc anh phải sửa lại đường dẫn DataSource
